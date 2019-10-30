@@ -9,7 +9,7 @@ date: 2017-10-10 17:25:00 +800
 
 搜罗了一圈，发现有其他公司使用middleman发布他们的API文档，所以我也使用middleman构建静态文档站点。
 
-项目具体细节参见[GitHub Project](https://github.com/Chinaxiang/middleman)
+项目具体细节参见[GitHub Project](https://github.com/Litter/middleman)
 
 本项目只是一个示例，你可以Fork & Clone使用。
 
@@ -82,7 +82,7 @@ gem install middleman
 安装完环境后，克隆本项目。
 
 ```
-git clone git@github.com:Chinaxiang/middleman.git
+git clone git@github.com:Litter/middleman.git
 cd middleman
 rm -rf build
 bundle exec middleman build

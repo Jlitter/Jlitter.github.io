@@ -283,16 +283,16 @@ Jekyll的配置有很多，但我们用到的不多，默认的基本就够我�
 也可以参照我的博客项目了解`_config.yml`配置。
 
 ```yaml
-# Welcome to Chinaxiang' personal page!
+# Welcome to Litter' personal page!
 lang: zh_CN
 title: 黄彦祥的个人网站
-author: Chinaxiang
+author: Litter
 email: forkmail@qq.com
 description: > 
   黄彦祥，90后程序猿一枚，热爱分享，喜欢折腾，乐于探索，勇于挑战自我，对新事物充满热情，广交天下有志之士，共谋IT发展大计。
 baseurl: ""
 url: "http://huangyanxiang.com"
-github_username:  Chinaxiang
+github_username:  Litter
 twitter_username: ""
 
 minima:

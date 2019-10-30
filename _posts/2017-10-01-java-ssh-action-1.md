@@ -48,7 +48,7 @@ import ch.ethz.ssh2.StreamGobbler;
 public class Basic {
     public static void main(String[] args) {
         String hostname = "192.168.0.103";
-        String username = "chinaxiang";
+        String username = "Litter";
         String password = "asdf";
         try {
             Connection conn = new Connection(hostname);
@@ -86,9 +86,9 @@ Here is some information about the remote host:
 Darwin bogon 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64
 Sun Jan 21 22:37:48 CST 2018
 22:37  up 73 days,  3:22, 3 users, load averages: 1.34 1.52 1.52
-chinaxiang console  Nov  9 19:17 
-chinaxiang ttys001  Jan  8 09:34 
-chinaxiang ttys002  Jan 20 21:49 
+Litter console  Nov  9 19:17 
+Litter ttys001  Jan  8 09:34 
+Litter ttys002  Jan 20 21:49 
 ExitCode: null
 ```
 
@@ -117,8 +117,8 @@ import ch.ethz.ssh2.StreamGobbler;
 public class PublicKeyAuthentication {
     public static void main(String[] args) {
         String hostname = "192.168.0.103";
-        String username = "chinaxiang";
-        File keyfile = new File("/Users/chinaxiang/.ssh/id_rsa"); // 密钥
+        String username = "Litter";
+        File keyfile = new File("/Users/Litter/.ssh/id_rsa"); // 密钥
         String keyfilePass = ""; // will be ignored if not needed
         try {
             Connection conn = new Connection(hostname);
@@ -155,9 +155,9 @@ Here is some information about the remote host:
 Darwin bogon 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64
 Sun Jan 21 22:59:57 CST 2018
 22:59  up 73 days,  3:44, 3 users, load averages: 1.45 1.56 1.56
-chinaxiang console  Nov  9 19:17 
-chinaxiang ttys001  Jan  8 09:34 
-chinaxiang ttys002  Jan 20 21:49
+Litter console  Nov  9 19:17 
+Litter ttys001  Jan  8 09:34 
+Litter ttys002  Jan 20 21:49
 ```
 
 ## 获取stdout,stderr
@@ -177,7 +177,7 @@ import ch.ethz.ssh2.StreamGobbler;
 public class StdoutAndStderr {
     public static void main(String[] args) {
         String hostname = "192.168.0.103";
-        String username = "chinaxiang";
+        String username = "Litter";
         String password = "asdf";
         try {
             Connection conn = new Connection(hostname);
