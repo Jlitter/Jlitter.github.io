@@ -1,7 +1,7 @@
 ---
 layout: post
 title: linux 下gitblit 服务器配置
-tags: linux 下gitblit 服务器配置
+tags: linux gitblit
 ---
 
 1 下载需要的依赖库
